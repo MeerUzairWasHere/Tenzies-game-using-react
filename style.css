@@ -14,11 +14,17 @@ main {
     height: 450px;
     max-width: 800px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+@media (min-width: 480px) {
+    main{
+        margin: auto;
+    }
 }
 
 .title {
